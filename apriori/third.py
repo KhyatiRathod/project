@@ -117,7 +117,7 @@ while (i < len(frequent_itemset)):
 	while (j < (len(frequent_itemset)-1)):
 		item2 = frequent_itemset[j][0]
 		if(item1 != item2):
-			h = 0
+			h = 2
 			while (h < (len(frequent_itemset)-2)):
 				item3 = frequent_itemset[h][0]
 				if(item2 != item3 and item1 != item3):
