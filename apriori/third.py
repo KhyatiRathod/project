@@ -83,7 +83,6 @@ while (i < len(frequent_itemset)):
 
 							p = len(second)-1
 							while (p >=0 ):
-								print("i : ",i ," j : ", j ," k : ", k," p :" , p )
 								if (second[p][0] == item1):
 									if(second[p][1]==item2):
 										second[p][2] = second[p][2] + 1
