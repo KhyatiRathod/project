@@ -133,7 +133,6 @@ while (i < len(frequent_itemset)):
 									else:
 										p = len(third)-1
 										while (p >=0 ):
-											print("third","i : ",i ," j : ", j ," k : ", k," p :" , p )
 											if (third[p][0] == item1):
 												if(third[p][1]==item2):
 													if(third[p][2] == item3):
